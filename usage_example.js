@@ -30,11 +30,15 @@ console.log(clonedLinkedList)
 
 clonedLinkedList.append("t")
 clonedLinkedList.append("t")
-clonedLinkedList.append("t"")
+clonedLinkedList.append("t")
 
 console.log(clonedLinkedList.size)
 
 console.log(linkedList.size)
+
+clonedLinkedList.reverse()
+
+console.log(clonedLinkedList)
 
 console.log("First t :", clonedLinkedList.findFirst("t"))
 console.log("Last t :", clonedLinkedList.findLast("t"))
